@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import { useParams, Link } from "react-router-dom";
 import blogPosts from "../data/blogData";
 
@@ -18,13 +17,6 @@ export default function BlogDetails() {
 
   return (
     <div className="bg-[#F8FAFC] text-[#132669] py-24 px-6 md:px-16 font-serif">
-
-      <Helmet>
-        <title>{blog.title} | Rising Star Academy Blog</title>
-        <meta name="description" content={blog.content.slice(0, 150)} />
-      </Helmet>
-
-
       <div className="max-w-4xl mx-auto">
         <img src={blog.image} alt={blog.title} className="w-full h-96 object-cover rounded-xl mb-8 shadow-lg" />
         <p className="text-sm text-[#888] mb-2">{blog.date}</p>

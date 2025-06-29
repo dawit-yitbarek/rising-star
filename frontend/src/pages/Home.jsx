@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import Hero from "../components/HomeHero";
 import WhyChooseUs from "../components/WhyChooseUs";
 import AboutUs from "../components/AboutUs";
@@ -10,14 +9,6 @@ import CallToAction from '../components/CallToAction'
 export default function Home() {
   return (
     <div className="relative min-h-screen font-serif text-white">
-
-      <Helmet>
-        <title>Rising Star Academy | Kindergarten & Grades 1–8 in Ethiopia</title>
-        <meta
-          name="description"
-          content="Welcome to Rising Star Academy. Explore our unique educational approach for children in Ethiopia, from Kindergarten to Grade 8."
-        />
-      </Helmet>
 
       {/* Hero section */}
       <Hero />

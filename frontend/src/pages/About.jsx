@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import HeroSection from "../components/HeroSection";
 import OurStory from "../components/OurStory";
 import CoreValues from "../components/CoreValues";
@@ -11,14 +10,6 @@ import CallToAction from "../components/CallToAction";
 export default function About() {
     return (
         <main className="relative min-h-screen text-white font-serif bg-white">
-            <Helmet>
-                <title>About Rising Star Academy | Shaping Ethiopia's Bright Future</title>
-                <meta 
-                    name="description" 
-                    content="Learn more about Rising Star Academy – our story, mission, vision, values, awards, and the environment we create for students from Kindergarten to Grade 8 in Ethiopia." 
-                />
-            </Helmet>
-
             {/* Hero section */}
             <HeroSection 
                 title={"About Rising Star Academy"}

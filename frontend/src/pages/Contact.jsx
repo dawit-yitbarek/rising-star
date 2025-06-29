@@ -1,16 +1,10 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import HeroSection from "../components/HeroSection"
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaTelegramPlane, FaTiktok } from "react-icons/fa";
 
 export default function Contact() {
   return (
     <section className="bg-[#F8FAFC] text-[#132669]">
-
-      <Helmet>
-        <title>Contact | Rising Star Academy</title>
-        <meta name="description" content="Get in touch with Rising Star Academy in Addis Ababa, Ethiopia. Contact us via phone, email, or social platforms." />
-      </Helmet>
 
       {/* Hero section */}
       <HeroSection

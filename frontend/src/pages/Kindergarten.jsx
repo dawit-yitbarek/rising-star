@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import HeroSection from "../components/HeroSection";
 import PhilosophySection from "../components/PhilosophySection";
 import EnvironmentSection from "../components/EnvironmentSection"
@@ -10,13 +9,6 @@ import CallToAction from "../components/CallToAction"
 export default function Kindergarten() {
     return (
         <div className="relative min-h-screen font-serif text-[#132669]">
-            <Helmet>
-                <title>Kindergarten Program | Rising Star Academy</title>
-                <meta
-                    name="description"
-                    content="Explore Rising Star Academy's nurturing kindergarten program in Ethiopia — where curiosity, creativity, and foundational learning come together in a joyful environment."
-                />
-            </Helmet>
 
             {/* Hero section */}
             <HeroSection
