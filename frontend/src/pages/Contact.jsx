@@ -30,8 +30,12 @@ export default function Contact() {
               <span>+251 953 239 367</span>
             </p>
             <p className="flex items-center gap-3">
+              <FaPhoneAlt className="text-[#2B3CAB]" />
+              <span>+011 666 1015</span>
+            </p>
+            <p className="flex items-center gap-3">
               <FaEnvelope className="text-[#2B3CAB]" />
-              <span>contact@risingstaracademy.et</span>
+              <span>rsaethiopia@gmail.com</span>
             </p>
           </div>
 
