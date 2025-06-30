@@ -33,9 +33,10 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
-          <p className="text-[#97A9B8]">Addis Ababa, Ethiopia</p>
+          <p className="text-[#97A9B8]">Gurd shola, Addis Ababa, Ethiopia</p>
           <p className="text-[#97A9B8]">Phone: +251 953 239 367</p>
-          <p className="text-[#97A9B8]">Email: info@risingstaracademy.et</p>
+          <p className="text-[#97A9B8]">Phone: +011 666 1015</p>
+          <p className="text-[#97A9B8]">Email: rsaethiopia@gmail.com</p>
         </div>
       </div>
 
@@ -44,7 +45,7 @@ export default function Footer() {
         <p className="mt-1 flex justify-center items-center gap-1">
           Developed by{" "}
           <a
-            href="https://t.me/Dzazvzez"
+            href="https://t.me/Davidyz17"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#60a5fa] hover:underline inline-flex items-center gap-1"
