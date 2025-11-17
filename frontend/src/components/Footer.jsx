@@ -45,13 +45,13 @@ export default function Footer() {
         <p className="mt-1 flex justify-center items-center gap-1">
           Developed by{" "}
           <a
-            href="https://t.me/Davidyz17"
+            href="https://www.daviddeveloper.site"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#60a5fa] hover:underline inline-flex items-center gap-1"
           >
             <FaTelegramPlane className="text-sm" />
-            David – Full Stack Web Developer
+            Dawit – Full Stack Web Developer
           </a>
         </p>
 
